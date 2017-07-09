@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="12121"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="HeaderView">
+            <connections>
+                <outlet property="githubButton" destination="peJ-C4-7Es" id="gWd-yu-zPm"/>
+                <outlet property="githubLabel" destination="qtr-OH-omL" id="DZx-s5-BUj"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="120"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <button translatesAutoresizingMaskIntoConstraints="NO" id="peJ-C4-7Es">
+                    <rect key="frame" x="8" y="92" width="20" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="20" id="A0H-EV-qNd"/>
+                        <constraint firstAttribute="height" constant="20" id="ZJ4-MG-WON"/>
+                    </constraints>
+                    <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="GitHubMark" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="oZi-NV-M5r">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="onGithubButtonClick:" target="-2" id="6tE-0N-SwE"/>
+                    </connections>
+                </button>
+                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wkw-Az-if6">
+                    <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="I8Z-7K-j9s"/>
+                    </constraints>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="Header" id="nSV-pE-rDh"/>
+                </imageView>
+                <customView translatesAutoresizingMaskIntoConstraints="NO" id="7fA-ej-3jz">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                    <subviews>
+                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CW3-gz-kQX">
+                            <rect key="frame" x="44" y="10" width="288" height="25"/>
+                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="An emoji guide for your commit messages" drawsBackground="YES" id="tnd-HI-BH2">
+                                <font key="font" size="15" name="Avenir-Book"/>
+                                <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                <color key="backgroundColor" red="1" green="0.8666666666666667" blue="0.40392156862745099" alpha="1" colorSpace="calibratedRGB"/>
+                            </textFieldCell>
+                        </textField>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="CW3-gz-kQX" firstAttribute="centerY" secondItem="7fA-ej-3jz" secondAttribute="centerY" id="XJE-Ay-Byd"/>
+                        <constraint firstItem="CW3-gz-kQX" firstAttribute="centerX" secondItem="7fA-ej-3jz" secondAttribute="centerX" id="nP7-is-BWY"/>
+                    </constraints>
+                </customView>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qtr-OH-omL">
+                    <rect key="frame" x="32" y="92" width="120" height="23"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Fork me on GitHub!" drawsBackground="YES" id="ePn-Up-QZd">
+                        <font key="font" size="13" name="Avenir-Book"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" white="1" alpha="0.0" colorSpace="deviceWhite"/>
+                    </textFieldCell>
+                </textField>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="7fA-ej-3jz" secondAttribute="bottom" id="8qe-10-FSK"/>
+                <constraint firstItem="wkw-Az-if6" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" constant="32" id="OCi-1K-Rzn"/>
+                <constraint firstAttribute="trailing" secondItem="7fA-ej-3jz" secondAttribute="trailing" id="R21-Sm-k6c"/>
+                <constraint firstItem="7fA-ej-3jz" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" id="SNE-sb-Uvl"/>
+                <constraint firstItem="wkw-Az-if6" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" id="Sw9-mw-Gw7"/>
+                <constraint firstItem="peJ-C4-7Es" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" constant="8" id="VBI-cM-QEQ"/>
+                <constraint firstItem="qtr-OH-omL" firstAttribute="centerY" secondItem="peJ-C4-7Es" secondAttribute="centerY" constant="-1" id="har-10-9Ie"/>
+                <constraint firstItem="peJ-C4-7Es" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" constant="8" id="lGX-ft-5Cg"/>
+                <constraint firstItem="qtr-OH-omL" firstAttribute="leading" secondItem="peJ-C4-7Es" secondAttribute="trailing" constant="4" id="mIj-eg-Jt4"/>
+                <constraint firstItem="7fA-ej-3jz" firstAttribute="top" secondItem="wkw-Az-if6" secondAttribute="bottom" id="qcj-xQ-IuR"/>
+                <constraint firstAttribute="trailing" secondItem="wkw-Az-if6" secondAttribute="trailing" id="umw-gD-gXI"/>
+            </constraints>
+            <point key="canvasLocation" x="138.5" y="126"/>
+        </customView>
+    </objects>
+    <resources>
+        <image name="GitHubMark" width="32" height="32"/>
+        <image name="Header" width="365.83782958984375" height="109"/>
+    </resources>
+</document>

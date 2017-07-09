@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3711B4E01F12160C00C54A15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3711B4DF1F12160C00C54A15 /* AppDelegate.m */; };
+		3711B4E31F12160C00C54A15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3711B4E21F12160C00C54A15 /* main.m */; };
+		3711B4E81F12160C00C54A15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3711B4E71F12160C00C54A15 /* Assets.xcassets */; };
+		3766592C1F121CE3007834C3 /* EmojiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3766592A1F121CE3007834C3 /* EmojiViewController.m */; };
+		3766592D1F121CE3007834C3 /* EmojiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3766592B1F121CE3007834C3 /* EmojiViewController.xib */; };
+		376659311F122334007834C3 /* NSCollectionViewTableLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 376659301F122334007834C3 /* NSCollectionViewTableLayout.m */; };
+		3766595A1F122597007834C3 /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 376659591F122597007834C3 /* ServiceManagement.framework */; };
+		3766595D1F1225D3007834C3 /* gitmojihelper.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 376659571F1224C8007834C3 /* gitmojihelper.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		376659641F1226D3007834C3 /* def.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 376659631F1226D3007834C3 /* def.json */; };
+		376659671F122E0B007834C3 /* Emoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 376659661F122E0B007834C3 /* Emoji.m */; };
+		3766596B1F12307C007834C3 /* EmojiItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 376659691F12307C007834C3 /* EmojiItem.m */; };
+		3766596C1F12307C007834C3 /* EmojiItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3766596A1F12307C007834C3 /* EmojiItem.xib */; };
+		37CDE84E1F1260FD003712AB /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37CDE84C1F1260FD003712AB /* HeaderView.m */; };
+		37CDE84F1F1260FD003712AB /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37CDE84D1F1260FD003712AB /* HeaderView.xib */; };
+		37CDE8531F126107003712AB /* FooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37CDE8511F126107003712AB /* FooterView.m */; };
+		37CDE8541F126107003712AB /* FooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37CDE8521F126107003712AB /* FooterView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		376659561F1224C8007834C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 376659521F1224C7007834C3 /* gitmojihelper.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3766593B1F1224C7007834C3;
+			remoteInfo = gitmojihelper;
+		};
+		3766595E1F122615007834C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 376659521F1224C7007834C3 /* gitmojihelper.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 3766593A1F1224C7007834C3;
+			remoteInfo = gitmojihelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3766595C1F1225BF007834C3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LoginItems;
+			dstSubfolderSpec = 1;
+			files = (
+				3766595D1F1225D3007834C3 /* gitmojihelper.app in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		376659601F122683007834C3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				376659641F1226D3007834C3 /* def.json in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3711B4DB1F12160C00C54A15 /* Gitmoji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gitmoji.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3711B4DE1F12160C00C54A15 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3711B4DF1F12160C00C54A15 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3711B4E21F12160C00C54A15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3711B4E71F12160C00C54A15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3711B4EC1F12160C00C54A15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		376659291F121CE3007834C3 /* EmojiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmojiViewController.h; sourceTree = "<group>"; };
+		3766592A1F121CE3007834C3 /* EmojiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmojiViewController.m; sourceTree = "<group>"; };
+		3766592B1F121CE3007834C3 /* EmojiViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmojiViewController.xib; sourceTree = "<group>"; };
+		3766592F1F122334007834C3 /* NSCollectionViewTableLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCollectionViewTableLayout.h; sourceTree = "<group>"; };
+		376659301F122334007834C3 /* NSCollectionViewTableLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCollectionViewTableLayout.m; sourceTree = "<group>"; };
+		376659521F1224C7007834C3 /* gitmojihelper.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = gitmojihelper.xcodeproj; path = gitmojihelper/gitmojihelper.xcodeproj; sourceTree = "<group>"; };
+		376659591F122597007834C3 /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
+		3766595B1F12259D007834C3 /* Gitmoji.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Gitmoji.entitlements; sourceTree = "<group>"; };
+		376659631F1226D3007834C3 /* def.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = def.json; path = ../../Tools/JsonBuilder/out/def.json; sourceTree = "<group>"; };
+		376659651F122E0B007834C3 /* Emoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Emoji.h; sourceTree = "<group>"; };
+		376659661F122E0B007834C3 /* Emoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Emoji.m; sourceTree = "<group>"; };
+		376659681F12307C007834C3 /* EmojiItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmojiItem.h; sourceTree = "<group>"; };
+		376659691F12307C007834C3 /* EmojiItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmojiItem.m; sourceTree = "<group>"; };
+		3766596A1F12307C007834C3 /* EmojiItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmojiItem.xib; sourceTree = "<group>"; };
+		37CDE84B1F1260FD003712AB /* HeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderView.h; sourceTree = "<group>"; };
+		37CDE84C1F1260FD003712AB /* HeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderView.m; sourceTree = "<group>"; };
+		37CDE84D1F1260FD003712AB /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		37CDE8501F126107003712AB /* FooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FooterView.h; sourceTree = "<group>"; };
+		37CDE8511F126107003712AB /* FooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FooterView.m; sourceTree = "<group>"; };
+		37CDE8521F126107003712AB /* FooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FooterView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3711B4D81F12160C00C54A15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3766595A1F122597007834C3 /* ServiceManagement.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3711B4D21F12160C00C54A15 = {
+			isa = PBXGroup;
+			children = (
+				376659631F1226D3007834C3 /* def.json */,
+				376659521F1224C7007834C3 /* gitmojihelper.xcodeproj */,
+				3711B4DD1F12160C00C54A15 /* Gitmoji */,
+				3711B4DC1F12160C00C54A15 /* Products */,
+				376659581F122597007834C3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3711B4DC1F12160C00C54A15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3711B4DB1F12160C00C54A15 /* Gitmoji.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3711B4DD1F12160C00C54A15 /* Gitmoji */ = {
+			isa = PBXGroup;
+			children = (
+				3766595B1F12259D007834C3 /* Gitmoji.entitlements */,
+				3711B4DE1F12160C00C54A15 /* AppDelegate.h */,
+				3711B4DF1F12160C00C54A15 /* AppDelegate.m */,
+				3711B4E71F12160C00C54A15 /* Assets.xcassets */,
+				3711B4EC1F12160C00C54A15 /* Info.plist */,
+				3711B4E11F12160C00C54A15 /* Supporting Files */,
+				376659291F121CE3007834C3 /* EmojiViewController.h */,
+				3766592A1F121CE3007834C3 /* EmojiViewController.m */,
+				3766592B1F121CE3007834C3 /* EmojiViewController.xib */,
+				3766592F1F122334007834C3 /* NSCollectionViewTableLayout.h */,
+				376659301F122334007834C3 /* NSCollectionViewTableLayout.m */,
+				376659651F122E0B007834C3 /* Emoji.h */,
+				376659661F122E0B007834C3 /* Emoji.m */,
+				376659681F12307C007834C3 /* EmojiItem.h */,
+				376659691F12307C007834C3 /* EmojiItem.m */,
+				3766596A1F12307C007834C3 /* EmojiItem.xib */,
+				37CDE84B1F1260FD003712AB /* HeaderView.h */,
+				37CDE84C1F1260FD003712AB /* HeaderView.m */,
+				37CDE84D1F1260FD003712AB /* HeaderView.xib */,
+				37CDE8501F126107003712AB /* FooterView.h */,
+				37CDE8511F126107003712AB /* FooterView.m */,
+				37CDE8521F126107003712AB /* FooterView.xib */,
+			);
+			path = Gitmoji;
+			sourceTree = "<group>";
+		};
+		3711B4E11F12160C00C54A15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3711B4E21F12160C00C54A15 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		376659531F1224C7007834C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				376659571F1224C8007834C3 /* gitmojihelper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		376659581F122597007834C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				376659591F122597007834C3 /* ServiceManagement.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3711B4DA1F12160C00C54A15 /* Gitmoji */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3711B4EF1F12160C00C54A15 /* Build configuration list for PBXNativeTarget "Gitmoji" */;
+			buildPhases = (
+				3711B4D71F12160C00C54A15 /* Sources */,
+				3711B4D81F12160C00C54A15 /* Frameworks */,
+				3711B4D91F12160C00C54A15 /* Resources */,
+				3766595C1F1225BF007834C3 /* CopyFiles */,
+				376659601F122683007834C3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3766595F1F122615007834C3 /* PBXTargetDependency */,
+			);
+			name = Gitmoji;
+			productName = Gitmoji;
+			productReference = 3711B4DB1F12160C00C54A15 /* Gitmoji.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3711B4D31F12160C00C54A15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Fabio Di Peri";
+				TargetAttributes = {
+					3711B4DA1F12160C00C54A15 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = VX56Q44CCJ;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 3711B4D61F12160C00C54A15 /* Build configuration list for PBXProject "Gitmoji" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3711B4D21F12160C00C54A15;
+			productRefGroup = 3711B4DC1F12160C00C54A15 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 376659531F1224C7007834C3 /* Products */;
+					ProjectRef = 376659521F1224C7007834C3 /* gitmojihelper.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				3711B4DA1F12160C00C54A15 /* Gitmoji */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		376659571F1224C8007834C3 /* gitmojihelper.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = gitmojihelper.app;
+			remoteRef = 376659561F1224C8007834C3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3711B4D91F12160C00C54A15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3711B4E81F12160C00C54A15 /* Assets.xcassets in Resources */,
+				3766592D1F121CE3007834C3 /* EmojiViewController.xib in Resources */,
+				3766596C1F12307C007834C3 /* EmojiItem.xib in Resources */,
+				37CDE8541F126107003712AB /* FooterView.xib in Resources */,
+				37CDE84F1F1260FD003712AB /* HeaderView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3711B4D71F12160C00C54A15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37CDE84E1F1260FD003712AB /* HeaderView.m in Sources */,
+				37CDE8531F126107003712AB /* FooterView.m in Sources */,
+				3766592C1F121CE3007834C3 /* EmojiViewController.m in Sources */,
+				376659671F122E0B007834C3 /* Emoji.m in Sources */,
+				3711B4E31F12160C00C54A15 /* main.m in Sources */,
+				3766596B1F12307C007834C3 /* EmojiItem.m in Sources */,
+				376659311F122334007834C3 /* NSCollectionViewTableLayout.m in Sources */,
+				3711B4E01F12160C00C54A15 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3766595F1F122615007834C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = gitmojihelper;
+			targetProxy = 3766595E1F122615007834C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3711B4ED1F12160C00C54A15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3711B4EE1F12160C00C54A15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3711B4F01F12160C00C54A15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Gitmoji/Gitmoji.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VX56Q44CCJ;
+				INFOPLIST_FILE = Gitmoji/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kipters.gitmoji;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		3711B4F11F12160C00C54A15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Gitmoji/Gitmoji.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VX56Q44CCJ;
+				INFOPLIST_FILE = Gitmoji/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kipters.gitmoji;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3711B4D61F12160C00C54A15 /* Build configuration list for PBXProject "Gitmoji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3711B4ED1F12160C00C54A15 /* Debug */,
+				3711B4EE1F12160C00C54A15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3711B4EF1F12160C00C54A15 /* Build configuration list for PBXNativeTarget "Gitmoji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3711B4F01F12160C00C54A15 /* Debug */,
+				3711B4F11F12160C00C54A15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3711B4D31F12160C00C54A15 /* Project object */;
+}
