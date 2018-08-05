@@ -11,7 +11,9 @@ Windows version coming soon!
 
 ## Screenshot
 
-[<img alt='screenshot' src="https://github.com/kipters/gitmoji-menu/blob/master/Assets/screenshot.png?raw=true">](https://github.com/kipters/gitmoji-menu/releases)
+[<img alt='screenshot-light' src="https://github.com/kipters/gitmoji-menu/blob/master/Assets/screenshot-light.png?raw=true">](https://github.com/kipters/gitmoji-menu/releases)
+
+[<img alt='screenshot-dark' src="https://github.com/kipters/gitmoji-menu/blob/master/Assets/screenshot-dark.png?raw=true">](https://github.com/kipters/gitmoji-menu/releases)
 
 ## Development
 
