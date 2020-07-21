@@ -1,3 +1,7 @@
+# This is not the Repo you are looking for! :alien:
+
+New development is taking place in [gitlab.com/pdylong/gitmoji-menu](https://gitlab.com/pdylong/gitmoji-menu) :ok_hand:.
+
 # Gitmoji
 
 An emoji guide for your commit messages.
